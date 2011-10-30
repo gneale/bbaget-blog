@@ -9,17 +9,9 @@ class: sidebar blog
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) {return;}
   js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=367791014226";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-<div id="fb-root"></div>
-<!-- <script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) {return;}
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script> -->
 
 <article id="main" role="main">
 	<!-- Facebook like button -->
@@ -73,15 +65,19 @@ class: sidebar blog
 		<div id="disqus_thread" name="#comments">
 	</div>
 	<noscript>Please enable JavaScript to view the 
-		<a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+		<a href="http://disqus.com/?ref_noscript">comments powered by Facebook.</a>
 	</noscript>
 	<p>Blog comments powered by Facebook</p>
 	</div>
-	<div class="fb-comments" data-href="holidaysindordogne.com" data-num-posts="4" data-width="500"></div>
+	<div class="fb-comments" data-href="bbaget.com" data-num-posts="20" data-width="700"></div>
 </article>
 <aside id="complementary" role="complementary">
 	<!-- <h4 class="headline-text">Menu</h4> -->
 	{% include break_deco.html %}
 	{% include side_categories.html %}
+	{% include break_deco.html %}
 	{% include tag_cloud.html %}
+	{% include break_deco.html %}
+	{% include advert.html %}
+	{% include break_deco_line.html %}
 </aside>

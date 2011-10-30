@@ -298,7 +298,7 @@ FileETag None
 
 # The same content should never be available under two different URLs - especially not with and
 # without "www." at the beginning, since this can cause SEO problems (duplicate content).
-# That's why you should choose one of the alternatives and redirect the other one.
+# That's why you should choose one of the alternatives and $ the other one.
 
 # By default option 1 (no "www.") is activated. Remember: Shorter URLs are sexier.
 # no-www.org/faq.php?q=class_b
@@ -317,6 +317,8 @@ FileETag None
   RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
   RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 </IfModule>
+
+redirect 301 / /blog/
 
 # ----------------------------------------------------------------------
 

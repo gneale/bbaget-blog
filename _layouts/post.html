@@ -24,7 +24,7 @@ class: sidebar blog
 	<div id="blog-images">
 		<ul>
 			{% for image in page.images %}
-			<li class="blog-image"><a href=""><img src="/img/posts/{{ page.slug }}/{{ image }}"/></a></li>
+			<li class="blog-image"><a href=""><img src="/img/posts/{{ image }}"/></a></li>
 			{% endfor %}
 		</ul>
 	</div>
@@ -59,7 +59,7 @@ class: sidebar blog
 	{% include break_deco_line.html %}
 	<div id="comments" class="section">
 		<div id="num-responses">
-			<img src="/img/icons/ico_comments.png" alt="">
+			<img src="{{ site.url }}/img/icons/ico_comments.png" alt="">
 				<span class="responses-number">0</span> Responses. Add Yours!</div>
 		<h2>Discussion</h2>
 		<div id="disqus_thread" name="#comments">

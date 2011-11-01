@@ -44,7 +44,7 @@ module Jekyll
     priority :low
 
     # Domain that you are generating the sitemap for - update this to match your site.
-    BASE_URL = 'http://holidaysindordogne.com'
+    BASE_URL = 'http://bbaget.com/blog'
 
     # Generates the sitemap.xml file.
     #

@@ -2,11 +2,11 @@ require "rubygems"
 require "bundler"
 require "date"
 
-site_url    = "http://holidaysindordogne.com"   # deployed site url for sitemap.xml generator
-deploy_host = "holidaysindordogne.com"
-deploy_path = "/apps/production/josediazgonzalez.com/default/public/_site"
-deploy_user = "deploy"
-port        = "4000"
+site_url    = "http://bbaget.com"   # deployed site url for sitemap.xml generator
+deploy_host = "bbaget.com"
+deploy_path = "/home/bbaget/public_html/blog/"
+deploy_user = "bbaget"
+port        = "1970"
 site        = "_site"
 editor      = "mate"
 

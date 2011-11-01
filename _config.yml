@@ -1,12 +1,11 @@
 markdown: rdiscount
 auto: true
-# url: http://bbaget.com/blog
-url: 
+url: http://bbaget.com
 exclude: ["README.md", "LICENSE.md", "TODO.md", "build", "test", "templates"]
-# keywords: ["villa in france", "cottage in france", "cottage", "villa", "france", "gite", "pool", "dordogne", "self catering", "holiday", "family", "kids", "quality", "value", "flexible", "full kitchen", "towels", "bed linen", "perigord noir", "gites", "le bugue", "sarlat", "perigueux", "shooping", "markets", "history", "world heritage sites", "pre-historic", "caves", "chateaux", "medieval towns", "bastides", "peaceful", "canoeing", "golf", "bikes", "walking", "aquarium", "fine wines", "bordeaux", "bergerac", "wonderful food", "foie gras", "duck", "truffles"]
+keywords: france, tourism in france, dordogne, rentals, villas, cottages, apple, steve jobs, technology, holiday in france, villa in france, perigord, perigord noir, books, yoga, health, food, natural food, paleo
 
 owner-name: Grant Neale
-# owner-page: http://bbaget.com/blog
+owner-page: http://bbaget.com
 owner-email: gneale@mac.com
 owner-site: Bbaget
 
@@ -19,8 +18,7 @@ regeneration: true
 lsi: true
 exclude: README.textile Rakefile
 tag_title_prefix: 'Tag: '
-# base_url: http://bbaget.com/blog
-base_url:
+base_url: http://bbaget.com
 title: Bbaget - France and other stuff
 # post_types:
 #   - portfolio
